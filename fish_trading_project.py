@@ -727,7 +727,6 @@ g.tight_layout()
 
 rel_col2 = rel_col.copy()
 rel_col2.head()
-rel_col2["quantity_var"] = np.log1p(rel_col2["quantity"])
 
 rel_col2.head()
 
